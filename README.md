@@ -1,10 +1,13 @@
 # Imerssão DEV Alura
+
 >O código da aula inicial da Alura está aqui:
 
-https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10
+[https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10](https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10)
 
 >Faça o fork do projeto para a sua conta e marque as hashtags #imersaodev, imersaodev4 e #alura.
-### Como compartilhar seu CodePen:
+
+### Como compartilhar seu CodePen
+
 - Clique na opção Settings no canto superior direito;
 - Selecione a opção Pen Details (Detalhes);
 - No campo Pen Title você pode dar o nome do seu projeto;
@@ -13,6 +16,7 @@ https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10
 Agora só salvar seu projeto e compartilhar o link marcando a Alura nas redes sociais!
 
 ## Aula 01
+
 ># Variavéis, operções e média.
 
 Nesta primeira aula da Imersão Dev, criamos uma calculadora de média e aprendemos o que são variáveis e como realizar operações.
@@ -20,10 +24,10 @@ Nesta primeira aula da Imersão Dev, criamos uma calculadora de média e aprende
 Neste programa, focamos nas primeiras ferramentas principais de qualquer linguagem de programação: variáveis, operadores, arredondamento e console.
 
 ### Conteúdo detalhado desta aula
+
 - [x] Criar uma conta no CodePen;
 
-- [x] Entender as diferenças entre HTML, CSS e 
-JavaScript;
+- [x] Entender as diferenças entre HTML, CSS e JavaScript;
 
 - [x] Variáveis, manipulação dos valores armazenados e a memória do computador;
 
@@ -32,6 +36,7 @@ JavaScript;
 - [x] Fixando a quantidade de casas decimais com a função `.toFixed()`;
 
 ### Desafios desta aula!
+
 - [x] Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não
 
 - Input de notas.
@@ -41,6 +46,7 @@ Usando o método `prompt` e `parseFloat`:
 **prompt**: exibe uma caixa de diálogo com uma mensagem opcional solicitando ao usuário a entrada de algum texto.
 
 **parseFloat**: O método converte a string recebida como argumento e a retorna como um número de ponto flutuante. Este método se comporta de maneira idêntica a da função global parseFloat e é parte da especificação ECMAScript 6 (seu propósito é a modularização dos objetos globais).
+
 ```
 // Input de notas.
 var notasPrimeiroBi = parseFloat(prompt("Informe a Nota do Primeiro bimestre"));
@@ -50,10 +56,12 @@ var notasQuartoBi = parseFloat(prompt("Informe a Nota do Quarto bimestre"));
 ```
 
 - Calcular a média.
+
 ```
 // Calcula média
 var soma = (notasPrimeiroBi + notasSegundoBi + notasTerceiroBi + notasQuartoBi)/4;
 ```
+
 - Formatar com uma casa decimal usando o `toFixed`
 
 O método formata um número utilizando notação de ponto fixo.
@@ -61,6 +69,7 @@ O método formata um número utilizando notação de ponto fixo.
 // Formata decimais
 var notaFinal = soma.toFixed(1);
 ```
+
 - Verificar se aprovado ou não.`if...else`
 
 A condicional if  é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
@@ -75,7 +84,9 @@ if(notaFinal > 6){
 }
 
 ```
+
 - [x] Alterar o fundo da tela da maneira que achar mais legal
+
 ```
 body {
     font-family: 'Roboto Mono',monospace;
@@ -87,6 +98,7 @@ body {
     
   }
 ```
+
 Resultado:
 ![Imagem de fundo](./images/page_alura.png)
 
@@ -117,7 +129,9 @@ function Convert(){
     }
 }
 ```
+
 - Colocar a conta inteira da média em apenas uma linha
+
 ```
 // Calcula média
 var mediaFinal = ((notasPrimeiroBi + notasSegundoBi + notasTerceiroBi + notasQuartoBi)/4).toFixed(1);
@@ -125,9 +139,11 @@ var mediaFinal = ((notasPrimeiroBi + notasSegundoBi + notasTerceiroBi + notasQua
 
 ### Links de estudo dessa aula
 
+- [Release desse repo: aula 01](https://github.com/neresfabio/imersao_alura_03_2022/tree/release/finalAula01)
 - [Váriaveis](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types#vari%C3%A1veis)
 - [Function parseFloat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 - [Manifesto Tech](https://manifestotech.org/)
+
 ## Aula 02
 Conversor de moedas
 
