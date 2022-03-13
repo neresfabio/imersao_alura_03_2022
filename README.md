@@ -15,19 +15,19 @@ Nesta primeira aula da Imersão Dev, criamos uma calculadora de média e aprende
 Neste programa, focamos nas primeiras ferramentas principais de qualquer linguagem de programação: variáveis, operadores, arredondamento e console.
 
 ### Conteúdo detalhado desta aula
--[x] Criar uma conta no CodePen;
+- [x] Criar uma conta no CodePen;
 
--[x] Entender as diferenças entre HTML, CSS e 
+- [x] Entender as diferenças entre HTML, CSS e 
 JavaScript;
 
--[x] Variáveis, manipulação dos valores armazenados e a memória do computador;
+- [x] Variáveis, manipulação dos valores armazenados e a memória do computador;
 
--[x] Tipos de variáveis, como texto e inteiro;
+- [x] Tipos de variáveis, como texto e inteiro;
 
--[x] Fixando a quantidade de casas decimais com a função `.toFixed()`;
+- [x] Fixando a quantidade de casas decimais com a função `.toFixed()`;
 
 ### Desafios desta aula!
--[x] Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não
+- [x] Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não
 
 - Input de notas.
 
