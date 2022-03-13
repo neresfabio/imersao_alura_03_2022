@@ -1,4 +1,9 @@
 # Imerssão DEV Alura
+>O código da aula inicial da Alura está aqui:
+
+https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10
+
+>Faça o fork do projeto para a sua conta e marque as hashtags #imersaodev, imersaodev4 e #alura.
 ### Como compartilhar seu CodePen:
 - Clique na opção Settings no canto superior direito;
 - Selecione a opção Pen Details (Detalhes);
@@ -92,6 +97,10 @@ Existe varias formas de imprimir na página qualquer coisa, mas para essa ativid
 
 - Criar um conversor de temperaturas entre farenheit e celcius
 - Colocar a conta inteira da média em apenas uma linha
+```
+// Calcula média
+var mediaFinal = ((notasPrimeiroBi + notasSegundoBi + notasTerceiroBi + notasQuartoBi)/4).toFixed(1);
+```
 
 ### Links de estudo dessa aula
 
