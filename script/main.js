@@ -13,22 +13,17 @@
 // }else{
 //     alert("Reprovado : "+notaFinal)
 // }
-var value = prompt("Escolha uma das opções: 1_Converter Farenheit para Celius; 2_Converter Celcius; 0_Para sair.")
-switch(value)
-{
-    case value == null: 
-        alert("O campo não pode está vazio! Atualize ou pressione \"F5\" em seu teclado");
-        break;
-    case value == "1":
-        alert("Estou aqui");
-        break;
-    case value == "2":
-        break;
-    case value == "3":
-        break;
-    case value == "0":
-        alert("Para voltar basta atualizar a página ou clique\"F5\" em seu teclado")
-        break;
-    default:
-        alert("valor inválido Atualize a pagina ou clique\"F5\" em seu teclado");
+function Convert(){
+    var value = parseFloat(document.getElementById("value").value);
+    if(value == 1){
+        var valueF = parseFloat(prompt("Informe o valor em Fahrenheit"));
+        var valueC = ((valueF - 32)*5)/9;
+        alert(valueC+"°F");
+    }else if(value == 2){
+        valueC = parseFloat(prompt("Informe o valor em Celcius"));
+        valueF = ((valueC*5)/9)+32;
+        alert(valueF+"°C");
+    }else{
+        alert("Informe um valor valido!")
+    }
 }

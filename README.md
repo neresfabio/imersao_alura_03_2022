@@ -96,8 +96,27 @@ Resultado:
 Existe varias formas de imprimir na página qualquer coisa, mas para essa atividade o `prompt` ou `alert` podem ser usados, pois são métodos básicos que ainda podem ser explorados.
 
 - Criar um conversor de temperaturas entre farenheit e celcius
+
 >Fórmula (valueF - 32)x5/9 = c
->Fórmula (valueC x 5/9)+32 = f
+Fórmula (valueC x 5/9)+32 = f
+
+Usando alguns metodos para trabalhar com JavaScript
+```
+function Convert(){
+    var value = parseFloat(document.getElementById("value").value);
+    if(value == 1){
+        var valueF = parseFloat(prompt("Informe o valor em Fahrenheit"));
+        var valueC = ((valueF - 32)*5)/9;
+        alert(valueC+"°F");
+    }else if(value == 2){
+        valueC = parseFloat(prompt("Informe o valor em Celcius"));
+        valueF = ((valueC*5)/9)+32;
+        alert(valueF+"°C");
+    }else{
+        alert("Informe um valor valido!")
+    }
+}
+```
 - Colocar a conta inteira da média em apenas uma linha
 ```
 // Calcula média

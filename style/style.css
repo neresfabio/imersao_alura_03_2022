@@ -1,36 +1,50 @@
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-image: url(https://images.pexels.com/photos/4904563/pexels-photo-4904563.jpeg?cs=srgb&dl=pexels-cottonbro-4904563.jpg&fm=jpg);
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-  }
-  
-  .page-title {
-    color:#fff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color:#fff;
-    margin-top: 5px;
-  }
-  
-  .page-logo {
-    width: 200px;
-  }
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url(https://images.pexels.com/photos/4904563/pexels-photo-4904563.jpeg?cs=srgb&dl=pexels-cottonbro-4904563.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+  padding: 18px;
+  height: 39vh;
+}
+.container input {
+  height: 5vh;
+}
+.container-space {
+  margin-top: 4%;
+}
+.page-title {
+  color: #fff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+input{
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
