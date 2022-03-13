@@ -1,10 +1,10 @@
 # Imerssão DEV Alura
 
->O código da aula inicial da Alura está aqui:
+> O código da aula inicial da Alura está aqui:
 
 [https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10](https://codepen.io/imersao-dev/pen/38cf7906dcec352d8dbd0f8c4c7c1b10)
 
->Faça o fork do projeto para a sua conta e marque as hashtags #imersaodev, imersaodev4 e #alura.
+> Faça o fork do projeto para a sua conta e marque as hashtags #imersaodev, imersaodev4 e #alura.
 
 ### Como compartilhar seu CodePen
 
@@ -13,11 +13,11 @@
 - No campo Pen Title você pode dar o nome do seu projeto;
 - No campo Pen Description, você pode dar detalhes sobre o projeto (o que ele faz, qual objetivo do projeto);
 - Para compartilhar seu projeto, no campo Tags, você pode adicionar #imersaodev e #alura
-Agora só salvar seu projeto e compartilhar o link marcando a Alura nas redes sociais!
+  Agora só salvar seu projeto e compartilhar o link marcando a Alura nas redes sociais!
 
 ## Aula 01
 
-># Variavéis, operções e média.
+> # Variavéis, operções e média.
 
 Nesta primeira aula da Imersão Dev, criamos uma calculadora de média e aprendemos o que são variáveis e como realizar operações.
 
@@ -65,6 +65,7 @@ var soma = (notasPrimeiroBi + notasSegundoBi + notasTerceiroBi + notasQuartoBi)/
 - Formatar com uma casa decimal usando o `toFixed`
 
 O método formata um número utilizando notação de ponto fixo.
+
 ```
 // Formata decimais
 var notaFinal = soma.toFixed(1);
@@ -72,7 +73,7 @@ var notaFinal = soma.toFixed(1);
 
 - Verificar se aprovado ou não.`if...else`
 
-A condicional if  é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
+A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
 
 ```
 
@@ -95,7 +96,7 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    
+
   }
 ```
 
@@ -104,15 +105,16 @@ Resultado:
 
 [release/aula_calcula_media](https://github.com/neresfabio/imersao_alura_03_2022/blob/release/aula_calcula_media/README.md)
 
-- [X] Imprimir na própria página o resultado, ao invés do console
-Existe varias formas de imprimir na página qualquer coisa, mas para essa atividade o `prompt` ou `alert` podem ser usados, pois são métodos básicos que ainda podem ser explorados.
+- [x] Imprimir na própria página o resultado, ao invés do console
+      Existe varias formas de imprimir na página qualquer coisa, mas para essa atividade o `prompt` ou `alert` podem ser usados, pois são métodos básicos que ainda podem ser explorados.
 
 - Criar um conversor de temperaturas entre farenheit e celcius
 
->Fórmula (valueF - 32)x5/9 = c
-Fórmula (valueC x 5/9)+32 = f
+> Fórmula (valueF - 32)x5/9 = c
+> Fórmula (valueC x 5/9)+32 = f
 
 Usando alguns metodos para trabalhar com JavaScript
+
 ```
 function Convert(){
     var value = parseFloat(document.getElementById("value").value);
@@ -143,28 +145,20 @@ var mediaFinal = ((notasPrimeiroBi + notasSegundoBi + notasTerceiroBi + notasQua
 - [Váriaveis](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types#vari%C3%A1veis)
 - [Function parseFloat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
 - [Manifesto Tech](https://manifestotech.org/)
+- [Resultado final do meu projeto no CODPEN](https://codepen.io/pen?template=MWrWPRG)
 
 ## Aula 02
+
 Conversor de moedas
-
-
-
-
 
 Aula 03
 Mentalista
 
-
-
-
 Aula 04
 Array, lista e AluraFlix
 
-
-
-
 Aula 04
-Funções  no AluraFlix
+Funções no AluraFlix
 
 Paulo Silveira
 Rafaella Ballerini
