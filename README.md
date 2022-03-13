@@ -96,6 +96,8 @@ Resultado:
 Existe varias formas de imprimir na página qualquer coisa, mas para essa atividade o `prompt` ou `alert` podem ser usados, pois são métodos básicos que ainda podem ser explorados.
 
 - Criar um conversor de temperaturas entre farenheit e celcius
+>Fórmula (valueF - 32)x5/9 = c
+>Fórmula (valueC x 5/9)+32 = f
 - Colocar a conta inteira da média em apenas uma linha
 ```
 // Calcula média
