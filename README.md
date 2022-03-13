@@ -85,6 +85,8 @@ body {
 Resultado:
 ![Imagem de fundo](./images/page_alura.png)
 
+[release/aula_calcula_media](https://github.com/neresfabio/imersao_alura_03_2022/blob/release/aula_calcula_media/README.md)
+
 - [X] Imprimir na própria página o resultado, ao invés do console
 Existe varias formas de imprimir na página qualquer coisa, mas para essa atividade o `prompt` ou `alert` podem ser usados, pois são métodos básicos que ainda podem ser explorados.
 
