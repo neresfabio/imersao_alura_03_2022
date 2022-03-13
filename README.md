@@ -70,8 +70,24 @@ if(notaFinal > 6){
 }
 
 ```
-- Alterar o fundo da tela da maneira que achar mais legal
-- Imprimir na própria página o resultado, ao invés do console
+- [x] Alterar o fundo da tela da maneira que achar mais legal
+```
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url(https://images.pexels.com/photos/4904563/pexels-photo-4904563.jpeg?cs=srgb&dl=pexels-cottonbro-4904563.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+  }
+```
+Resultado:
+![Imagem de fundo](./images/page_alura.png)
+
+- [X] Imprimir na própria página o resultado, ao invés do console
+Existe varias formas de imprimir na página qualquer coisa, mas para essa atividade o `prompt` ou `alert` podem ser usados, pois são métodos básicos que ainda podem ser explorados.
+
 - Criar um conversor de temperaturas entre farenheit e celcius
 - Colocar a conta inteira da média em apenas uma linha
 
